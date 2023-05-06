@@ -1,0 +1,23 @@
+@import '../../assets/styles/vars.scss';
+
+.wrapper {
+	width: 100%;
+	padding: 30px 70px;
+	cursor: default;
+	@media (max-width: $table) {
+		padding: 20px 20px;
+	}
+
+	h4 {
+		font-family: 'Gilroy';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+		display: flex;
+		align-items: center;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: black;
+	}
+}

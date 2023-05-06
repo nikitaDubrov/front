@@ -1,0 +1,33 @@
+@import '../../assets/styles/vars.scss';
+
+.wrapper {
+	background-color: $blue;
+	width: 100vw;
+
+	.footer {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		img {
+			width: 80px;
+			height: auto;
+		}
+	}
+
+	.link {
+		text-decoration: none;
+		color: white;
+		font-size: 16px;
+		transition: all 300ms;
+
+		@media (max-width: $mobile) {
+			font-size: 14px;
+		}
+
+		&:hover {
+			opacity: 0.8;
+			transition: all 300ms;
+		}
+	}
+}

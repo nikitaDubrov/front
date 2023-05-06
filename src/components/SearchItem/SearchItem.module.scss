@@ -1,0 +1,35 @@
+@import '../../assets/styles/vars.scss';
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+
+	text-decoration: none;
+	color: inherit;
+
+	p {
+		font: inherit;
+		font-size: 16px;
+
+		@media (max-width: $mobile) {
+			font-size: 14px;
+		}
+	}
+
+	span {
+		font: inherit;
+		font-size: 16px;
+
+		@media (max-width: $mobile) {
+			font-size: 14px;
+		}
+	}
+
+	&:hover {
+		background-color: $blue;
+		color: white;
+	}
+}

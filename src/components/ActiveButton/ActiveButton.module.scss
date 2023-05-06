@@ -1,0 +1,25 @@
+@import '../../assets/styles/vars.scss';
+
+.button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 10px;
+	background: $orange;
+	color: white;
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.3ms;
+
+	&:hover {
+		transition: all 0.3ms;
+		opacity: 0.8;
+	}
+}

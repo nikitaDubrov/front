@@ -1,0 +1,43 @@
+.wrapper {
+	h1 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+
+	.wrapper_management {
+		margin-top: 50px;
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+
+		.management {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 50px;
+		}
+	}
+
+	.wrapper_books {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+		.books {
+			display: flex;
+			justify-content: center;
+			gap: 30px;
+			flex-wrap: wrap;
+		}
+	}
+
+	.wrapper_spinner {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}

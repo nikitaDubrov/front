@@ -1,0 +1,52 @@
+@import '../../assets/styles/vars.scss';
+
+.wrapper {
+	background: $blue;
+	backdrop-filter: blur(5px);
+	border-radius: 10px;
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 60px;
+
+	.text {
+		font-family: 'Gilroy';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 22px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		color: white;
+		cursor: default;
+		width: 188px;
+	}
+
+	a {
+		background: $orange;
+		border-radius: 10px;
+		padding: 10px 20px;
+		text-decoration: none;
+		transition: all 0.3ms;
+
+		&:hover {
+			transition: all 0.3ms;
+			opacity: 0.8;
+		}
+
+		span {
+			font-family: 'Montserrat';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 20px;
+			display: flex;
+			align-items: center;
+			text-align: center;
+			color: white;
+		}
+	}
+}

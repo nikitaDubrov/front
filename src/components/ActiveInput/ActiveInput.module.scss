@@ -1,0 +1,21 @@
+@import '../../assets/styles/vars.scss';
+
+.input {
+	background: transparent;
+	border: 2px solid $blue;
+	border-radius: 10px;
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	color: $blue;
+	outline: none;
+	padding: 10px 20px;
+
+	&::placeholder {
+		color: $gray;
+	}
+}

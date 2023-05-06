@@ -1,0 +1,98 @@
+@import '../../assets/styles/vars.scss';
+
+.wrapper {
+	background: #d8e4f8;
+	padding: 20px 70px;
+	display: flex;
+	justify-content: space-between;
+	cursor: default;
+
+	@media (max-width: $table) {
+		padding: 20px 20px;
+		flex-direction: column;
+		gap: 20px;
+		align-items: center;
+	}
+
+	div {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		width: 30%;
+
+		@media (max-width: $table) {
+			width: 100%;
+			align-items: center;
+		}
+	}
+
+	.fullName {
+		font-family: 'Gilroy';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 16px;
+		line-height: 22px;
+		display: flex;
+		align-items: center;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: black;
+	}
+
+	.role {
+		font-family: 'Gilroy';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 19px;
+		display: flex;
+		align-items: center;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: black;
+	}
+
+	.number {
+		font-family: 'Gilroy';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 16px;
+		line-height: 22px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		letter-spacing: 0.1em;
+		color: $blue;
+		display: flex;
+		gap: 12px;
+	}
+
+	.email {
+		font-family: 'Gilroy';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 16px;
+		line-height: 22px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		letter-spacing: 0.1em;
+		color: $blue;
+		display: flex;
+		gap: 12px;
+	}
+
+	a {
+		background: $blue;
+		border-radius: 10px;
+		padding: 10px 20px;
+		width: min-content;
+		height: min-content;
+		transition: all 300ms;
+
+		&:hover {
+			opacity: 0.8;
+			transition: all 300ms;
+		}
+	}
+}

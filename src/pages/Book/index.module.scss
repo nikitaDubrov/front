@@ -1,0 +1,102 @@
+@import '../../assets/styles/vars.scss';
+
+.wrapper {
+	margin: 50px 0;
+
+	@media (max-width: $table) {
+		margin: 20px 0;
+	}
+
+	h1 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 30px;
+	}
+
+	.navigate {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 20px;
+
+		@media (max-width: $mobile) {
+			flex-direction: column;
+			gap: 10px;
+		}
+
+		a {
+			outline: none;
+			border: none;
+			padding: 10px 20px;
+			color: white;
+			background: $blue;
+			border-radius: 10px;
+			font-family: 'Gilroy';
+
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 20px;
+			display: flex;
+			align-items: center;
+			text-align: center;
+			cursor: pointer;
+			transition: all 0.3ms;
+			text-decoration: none;
+
+			&:hover {
+				transition: all 0.3ms;
+				opacity: 0.8;
+			}
+
+			@media (max-width: $mobile) {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+		}
+
+		.btns {
+			display: flex;
+			gap: 10px;
+
+			@media (max-width: $mobile) {
+				flex-direction: column;
+			}
+		}
+	}
+
+	.compound {
+		padding-top: 10px;
+		background: white;
+		border-radius: 10px;
+
+		h3 {
+			margin-top: 30px;
+			padding: 0 70px;
+			font-family: 'Gilroy';
+			font-style: normal;
+			font-weight: 600;
+			font-size: 24px;
+			line-height: 29px;
+			display: flex;
+			align-items: center;
+			letter-spacing: 0.1em;
+			text-transform: uppercase;
+			color: black;
+			cursor: default;
+
+			@media (max-width: $table) {
+				padding: 20px 20px;
+				font-size: 20px;
+				margin-top: 0;
+			}
+		}
+
+		.employees {
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+		}
+	}
+}

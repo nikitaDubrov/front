@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'Gilroy';
+	src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
+		url('Gilroy-Semibold.woff2') format('woff2'),
+		url('Gilroy-Semibold.woff') format('woff'),
+		url('Gilroy-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat Semi Bold'), local('Montserrat-Semi-Bold'),
+		url('Montserrat-SemiBold.woff2') format('woff2'),
+		url('Montserrat-SemiBold.woff') format('woff'),
+		url('Montserrat-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
